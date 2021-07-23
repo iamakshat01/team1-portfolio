@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import 'navbar';
+@import 'profile';
+@import 'page';
+@import 'links'; 
+
+html{
+    scroll-behavior: smooth;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #f5f5f9;
+}
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: rgb(216, 209, 209);
+    border-radius: .375rem;
+    padding: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 1px 5px #00000099;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    transform: rotate3d(0);
+}
+
+.card:hover {
+    transition-duration: 100ms;
+    box-shadow: 0 5px 20px 5px #00000044;
+  }
+
+a {
+    color: black;
+}
+
+.info {
+    p {
+        margin-top: 5px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 500;
+        font-weight: bold;
+    }
+
+    .location {
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .dates {
+        font-size: small;
+        color: #404040;
+    }
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    padding: 10px;
+
+    img {
+        width: 100%;
+    }
+}
+
+body.dark-theme {
+  background-color: #222 !important;
+  color: #fff;
+  transition: all .3s ease-in;
+
+  .nav-bar, 
+  .profile,
+  .card,
+  .icon-container {
+    background-color: #000 !important;
+    transition: all .3s ease-in;
+  }
+
+  a {
+    color: #fff;
+    transition: all .3s ease-in;
+  }
+
+  .info .dates {
+    color: #aaa;
+    transition: all .3s ease-in;
+  }
+}
