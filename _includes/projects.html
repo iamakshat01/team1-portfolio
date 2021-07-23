@@ -1,18 +1,19 @@
 <h2 id="projects">Projects</h2>
 <div class="card-container">
     {% for item in site.data.projects %}
-    {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
+    
       <div class="card">
         <div class="info">
           <p class="title">{{ item.title }}</p>
           <p class="location">{{ item.event }}</p>
           <p class="dates">{{ item.date }}</p>
+          <div class="inside">
+            <a class="git-link" href={{item.git-link}}><i class="fa fa-github"></i></a>
+            <a class="open-link" href={{item.page-link}}><i class="fas fa-external-link-alt"></i></a>
+          </div>
         </div>
       </div>
+      
     </a>
     {% endfor %}
   </div>

@@ -2,3 +2,19 @@
   company: MLH Fellowship
   dates: Summer 2021
   logo: fellowship.svg
+
+- role: Google Summer Of Code
+  company: R project for statistical computing
+  dates: Summer 2021
+  logo: gsoc.png
+
+- role: Externship
+  company: Jumbotail
+  dates: Spring 2021
+  logo: jumbotail.png
+
+- role: Open Source Contributor
+  company: GirlScript Summer Of Code
+  dates: Spring 2021
+  logo: girlsscript.png
+

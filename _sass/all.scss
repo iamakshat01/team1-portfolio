@@ -108,3 +108,14 @@ body.dark-theme {
     transition: all .3s ease-in;
   }
 }
+
+.inside {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.git-link {
+    margin-right: auto;
+}

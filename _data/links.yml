@@ -1,19 +1,11 @@
-- name: Facebook
-  logo: fa fa-facebook
-  link: https://www.facebook.com
-
 - name: Twitter
   logo: fa fa-twitter
-  link: https://www.twitter.com
+  link: https://twitter.com/iamakshat01
 
 - name: Linkedin
   logo: fa fa-linkedin
-  link: https://www.linkedin.com
-
-- name: Instagram 
-  logo: fa fa-instagram
-  link: https://www.instagram.com
+  link: https://www.linkedin.com/in/mark-nawar2000/
 
 - name: Github
   logo: fa fa-github
-  link: https://www.github.com
+  link: https://github.com/iamakshat01/MLH-portfolio
