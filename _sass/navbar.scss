@@ -58,7 +58,6 @@
 }
 
 .nav-item a {
-  color: transparent;
   font-size: 1.1rem;
   font-weight: 900;
   line-height: 1.5;
@@ -66,7 +65,7 @@
   transition: color 0.3s ease-out;
   position: relative;
   display: block;
-  -webkit-text-stroke: 0.5px #f5f5f5;
+  color: #ffffff;
   user-select: none;
 
   &:hover {
